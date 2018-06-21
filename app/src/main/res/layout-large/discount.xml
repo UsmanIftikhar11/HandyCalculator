@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/discount_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:background="@color/discount_primary_light"/>
+
+            <TextView
+                android:id="@+id/txt_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Amount"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/text_color_white"/>
+
+            <EditText
+                android:id="@+id/total_amount"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="$0.0"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@+id/txt_loan"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/large_size"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_white"
+                android:backgroundTint="@color/text_color_white"
+                android:textColorHint="@color/text_color_white"/>
+
+            <TextView
+                android:id="@+id/txt_loan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount Percentage %"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="145dp"
+                android:textColor="@color/text_color_white"/>
+
+            <com.appyvet.rangebar.RangeBar
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/discount_percent"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                custom:connectingLineColor="#FFFFFF"
+                custom:pinColor="#FFFFFF"
+                custom:pinMaxFont="10sp"
+                custom:pinRadius="15dp"
+                custom:rangeBar="false"
+                custom:rangeBarColor="#FFFFFF"
+                custom:selectorColor="#FFFFFF"
+                custom:temporaryPins="false"
+                custom:textColor="#000000"
+                custom:tickColor="#FFFFFF"
+                custom:tickEnd="100"
+                custom:tickStart="1"
+                android:layout_marginTop="155dp"
+                android:layout_marginLeft="90dp"/>
+
+
+            <CheckBox
+                android:id="@+id/checkbox_tax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Include Tax"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="240dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_white"/>
+
+
+
+            <EditText
+                android:id="@+id/tax_percent"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="0.0%"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@+id/checkbox_tax"
+                android:inputType="numberDecimal"
+                android:visibility="invisible"
+                android:textSize="@dimen/large_size"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_white"
+                android:backgroundTint="@color/text_color_white"
+                android:textColorHint="@color/text_color_white" />
+
+            <com.skyfishjy.library.RippleBackground
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/content"
+                app:rb_color="@color/discount_primary_dark"
+                app:rb_radius="12dp"
+                app:rb_rippleAmount="4"
+                app:rb_duration="3000"
+                app:rb_scale="6"
+                android:layout_marginTop="295dp">
+
+            <ImageButton
+                android:id="@+id/discount_img_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/discount"
+                android:background="@drawable/round_btn_discount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"/>
+
+            </com.skyfishjy.library.RippleBackground>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Amount"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="570dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/total_amount_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Loan_Cost_value"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="600dp"
+                android:textSize="@dimen/final_calulated_value"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actual Amount"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="450dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="480dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tax %"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="510dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/actual_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Loan_Cost_value"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="320dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/discount_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Loan_Cost_value"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="320dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/tax_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Loan_Cost_value"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="320dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="550dp"
+                android:background="@color/discount_primary_dark"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Deals"
+                android:background="@color/discount_primary_dark"
+                android:padding="12dp"
+                android:textColor="@color/text_color_white"
+                android:id="@+id/discount_moreInfo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="650dp"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="700dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/discount_adview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize = "FULL_BANNER"
+        ads:adUnitId = "@string/discount_banner"/>
+
+</RelativeLayout>

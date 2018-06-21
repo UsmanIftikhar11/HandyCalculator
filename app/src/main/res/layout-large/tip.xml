@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/tip_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:background="@color/tip_primary_light"/>
+
+            <TextView
+                android:id="@+id/txt_bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="100dp"
+                android:text="@string/Bill_text"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/text_color_white"/>
+
+            <EditText
+                android:id="@+id/bill_amount"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/Tip_Cost_value"
+                android:layout_below="@+id/txt_bill"
+                android:layout_marginLeft="95dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_white"
+                android:backgroundTint="@color/text_color_white"
+                android:textColorHint="@color/text_color_white"
+                android:inputType="numberDecimal"/>
+
+            <TextView
+                android:id="@+id/txt_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tip_percentage"
+                android:layout_below="@+id/bill_amount"
+                android:paddingLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_white"/>
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/tip_percent"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                app:np_orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                app:np_dividerColor="@color/text_color_white"
+                app:np_max="59"
+                app:np_min="1"
+                app:np_selectedTextColor="@color/text_color_white"
+                app:np_selectedTextSize="30sp"
+                app:np_textColor="@color/text_color_white"
+                app:np_textSize="25sp"
+                app:np_typeface="@string/roboto_light"
+                app:np_value="3"
+                app:np_wheelItemCount="5"
+                app:np_wrapSelectorWheel="false"
+                app:np_dividerDistance="58dp">
+
+            </com.shawnlin.numberpicker.NumberPicker>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/No_of_people"
+                android:paddingLeft="100dp"
+                android:layout_marginTop="230dp"
+                android:textColor="@color/text_color_white"/>
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/no_of_people"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                app:np_orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="280dp"
+                app:np_dividerColor="@color/text_color_white"
+                app:np_max="59"
+                app:np_min="1"
+                app:np_selectedTextColor="@color/text_color_white"
+                app:np_selectedTextSize="30sp"
+                app:np_textColor="@color/text_color_white"
+                app:np_textSize="25sp"
+                app:np_typeface="@string/roboto_light"
+                app:np_value="3"
+                app:np_wheelItemCount="5"
+                app:np_wrapSelectorWheel="false"
+                app:np_dividerDistance="58dp">
+            </com.shawnlin.numberpicker.NumberPicker>
+
+
+            <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="375dp"
+                app:rb_color="@color/tip_primary_dark"
+                app:rb_duration="3000"
+                app:rb_radius="12dp"
+                app:rb_rippleAmount="4"
+                app:rb_scale="6">
+            <ImageButton
+                android:id="@+id/tip_img_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/tip"
+                android:background="@drawable/round_btn_tip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp" />
+            </com.skyfishjy.library.RippleBackground>
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="590dp"
+                android:background="@color/tip_primary_dark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Everyone_pays"
+                android:paddingLeft="100dp"
+                android:textSize="@dimen/large_size"
+                android:layout_marginTop="610dp"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/total_per_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tip_Cost_value"
+                android:paddingLeft="100dp"
+                android:layout_marginTop="640dp"
+                android:textSize="@dimen/final_calulated_value"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bill_per_person"
+                android:paddingLeft="100dp"
+                android:textSize="@dimen/large_size"
+                android:layout_marginTop="520dp"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tip_per_person"
+                android:paddingLeft="100dp"
+                android:textSize="@dimen/large_size"
+                android:layout_marginTop="550dp"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/bill_per_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tip_Cost_value"
+                android:layout_marginTop="520dp"
+                android:paddingLeft="300dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <TextView
+                android:id="@+id/tip_per_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tip_Cost_value"
+                android:layout_marginTop="550dp"
+                android:paddingLeft="300dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_black"/>
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Information"
+                android:background="@color/tip_primary_dark"
+                android:padding="12dp"
+                android:textColor="@color/text_color_white"
+                android:id="@+id/tip_moreInfo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="700dp"
+                android:textSize="@dimen/large_size"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tip_adview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize = "FULL_BANNER"
+        ads:adUnitId = "@string/tip_banner"/>
+
+
+</RelativeLayout>

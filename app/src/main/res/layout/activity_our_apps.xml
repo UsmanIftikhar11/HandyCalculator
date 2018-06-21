@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhords.handycalculator.handycalculator.OurApps">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/wallpaper"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="Our Apps"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/text_color_white"
+            android:layout_marginTop="-100dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="@dimen/ourapps_carview_width"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="130dp"
+                android:background="@color/text_color_white"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="3dp">
+
+
+                <ImageView
+                    android:id="@+id/app_img"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/diamond"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="90dp"
+                    android:text="Are You RIch Enough"
+                    android:textColor="@color/text_color_black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/our_app_title_txt"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="90dp"
+                    android:text="The most expensive app \n on play store"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/our_app_text" />
+
+                <Button
+                    android:id="@+id/btn_install"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="@dimen/ourapps_buttom_marginLeft"
+                    android:text="Install"
+                    android:padding="10dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/text_color_white"/>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

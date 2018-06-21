@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/smoke_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:isScrollContainer="false">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="510dp"
+                android:background="@color/smoke_primary_light"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                android:scaleType="fitXY"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                android:id="@+id/imageview"/>
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/pay_for_ciggerates"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/text_color_white"
+                fontPath="fonts/roboto.ttf"
+                tools:ignore="MissingPrefix"
+                android:textSize="@dimen/large_size"
+                android:layout_centerHorizontal="true"/>
+
+            <com.appyvet.rangebar.RangeBar
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pay_fro_cig"
+                android:layout_width="500dp"
+                android:layout_height="80dp"
+                custom:connectingLineColor="#FFFFFF"
+                custom:pinColor="#FFFFFF"
+                custom:pinMaxFont="10sp"
+                custom:pinRadius="15dp"
+                custom:rangeBar="false"
+                custom:rangeBarColor="#FFFFFF"
+                custom:selectorColor="#FFFFFF"
+                custom:temporaryPins="false"
+                custom:textColor="#000000"
+                custom:tickColor="#FFFFFF"
+                custom:tickEnd="100"
+                custom:tickStart="1"
+                android:layout_marginTop="55dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/cig_pack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cigarettes_in_pack"
+                android:gravity="center"
+                android:layout_marginTop="135dp"
+                android:textColor="@color/text_color_white"
+                android:textSize="@dimen/large_size"/>
+
+            <com.appyvet.rangebar.RangeBar
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cig_in_pack"
+                android:layout_width="500dp"
+                android:layout_height="80dp"
+                custom:connectingLineColor="#FFFFFF"
+                custom:pinColor="#FFFFFF"
+                custom:pinMaxFont="10sp"
+                custom:pinRadius="15dp"
+                custom:rangeBar="false"
+                custom:rangeBarColor="#FFFFFF"
+                custom:selectorColor="#FFFFFF"
+                custom:temporaryPins="false"
+                custom:textColor="#000000"
+                custom:tickColor="#FFFFFF"
+                custom:tickEnd="30"
+                custom:tickStart="1"
+                android:layout_marginTop="160dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cigarettes_in_day"
+                android:gravity="center"
+                android:layout_marginTop="245dp"
+                android:textColor="@color/text_color_white"
+                android:textSize="@dimen/large_size"/>
+
+            <com.appyvet.rangebar.RangeBar
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cig_in_day"
+                android:layout_width="500dp"
+                android:layout_height="80dp"
+                custom:connectingLineColor="#FFFFFF"
+                custom:pinColor="#FFFFFF"
+                custom:pinMaxFont="10sp"
+                custom:pinRadius="15dp"
+                custom:rangeBar="false"
+                custom:rangeBarColor="#FFFFFF"
+                custom:selectorColor="#FFFFFF"
+                custom:temporaryPins="false"
+                custom:textColor="#000000"
+                custom:tickColor="#FFFFFF"
+                custom:tickEnd="50"
+                custom:tickStart="1"
+                android:layout_marginTop="270dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Years_of_smoking"
+                android:gravity="center"
+                android:layout_marginTop="365dp"
+                android:textColor="@color/text_color_white"
+                android:textSize="@dimen/large_size"/>
+
+            <com.appyvet.rangebar.RangeBar
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/year_of_smoking"
+                android:layout_width="500dp"
+                android:layout_height="80dp"
+                custom:connectingLineColor="#FFFFFF"
+                custom:pinColor="#FFFFFF"
+                custom:pinMaxFont="10sp"
+                custom:pinRadius="15dp"
+                custom:rangeBar="false"
+                custom:rangeBarColor="#FFFFFF"
+                custom:selectorColor="#FFFFFF"
+                custom:temporaryPins="false"
+                custom:textColor="#000000"
+                custom:tickColor="#FFFFFF"
+                custom:tickEnd="80"
+                custom:tickStart="1"
+                android:layout_marginTop="380dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/until_now_cost"
+                android:textColor="@color/text_color_black"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="580dp"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:id="@+id/until_noe_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cost_value"
+                android:textColor="@color/text_color_black"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="610dp"
+                android:textSize="@dimen/final_calulated_value"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stop_today"
+                android:textColor="@color/text_color_black"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="660dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Daily_cost"
+                android:layout_below="@+id/textview"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="630dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Weekly_cost"
+                android:layout_below="@+id/textview"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="660dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Monthly_cost"
+                android:layout_below="@+id/textview"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="690dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Yearly_cost"
+                android:layout_below="@+id/textview"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="720dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:id="@+id/daily_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cost_value"
+                android:layout_below="@+id/textview"
+                android:layout_alignEnd="@+id/textview"
+                android:layout_alignRight="@+id/textview"
+                android:paddingEnd="130dp"
+                android:paddingRight="130dp"
+                android:layout_marginTop="630dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:id="@+id/weekly_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cost_value"
+                android:layout_below="@+id/textview"
+                android:layout_alignEnd="@+id/textview"
+                android:layout_alignRight="@+id/textview"
+                android:paddingEnd="130dp"
+                android:paddingRight="130dp"
+                android:layout_marginTop="660dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:id="@+id/monthly_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cost_value"
+                android:layout_below="@+id/textview"
+                android:layout_alignEnd="@+id/textview"
+                android:layout_alignRight="@+id/textview"
+                android:paddingEnd="130dp"
+                android:paddingRight="130dp"
+                android:layout_marginTop="690dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <TextView
+                android:id="@+id/yearly_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Cost_value"
+                android:layout_below="@+id/textview"
+                android:layout_alignEnd="@+id/textview"
+                android:layout_alignRight="@+id/textview"
+                android:paddingEnd="130dp"
+                android:paddingRight="130dp"
+                android:layout_marginTop="720dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_size"/>
+
+            <Button
+                android:id="@+id/smoke_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/Ready_to_quit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="830dp"
+                android:background="@color/smoke_primary_dark"
+                android:padding="12dp"
+                android:textSize="@dimen/large_size"
+                android:textColor="@color/text_color_white"
+                android:layout_marginBottom="220dp"/>
+
+
+            <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_marginTop="425dp"
+                app:rb_color="@color/smoke_primary_dark"
+                app:rb_duration="3000"
+                app:rb_radius="12dp"
+                app:rb_rippleAmount="4"
+                app:rb_scale="6">
+
+
+                <ImageButton
+                    android:id="@+id/img_btn"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/smoking"
+                    android:layout_marginTop="45dp"
+                    android:background="@drawable/round_btn"/>
+
+            </com.skyfishjy.library.RippleBackground>
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize = "FULL_BANNER"
+        ads:adUnitId = "@string/smoke_banner"/>
+
+
+</RelativeLayout>

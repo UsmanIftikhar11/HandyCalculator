@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="snackBar_large">22sp</dimen>
+
+    <dimen name="cardView_width">650dp</dimen>
+    <dimen name="cardView_textSize">22sp</dimen>
+    <dimen name="title_size">32sp</dimen>
+    <dimen name="table_heading_marginTop">320dp</dimen>
+
+    <dimen name="imae_width">630dp</dimen>
+    <dimen name="image_height">550dp</dimen>
+    <dimen name="image_margin_top">290dp</dimen>
+
+    <dimen name="our_app_text">16sp</dimen>
+    <dimen name="our_app_title_txt">22sp</dimen>
+
+    <dimen name="ourapps_carview_width">420dp</dimen>
+
+    <dimen name="ourapps_buttom_marginLeft">310dp</dimen>
+
+    <dimen name="splash_img_margin">290dp</dimen>
+
+    <dimen name="splash_textsize">16sp</dimen>
+    <dimen name="splash_textbold">16sp</dimen>
+
+    <dimen name="suggest_edittext_width">400dp</dimen>
+
+    <dimen name="textview_large_size">18sp</dimen>
+</resources>

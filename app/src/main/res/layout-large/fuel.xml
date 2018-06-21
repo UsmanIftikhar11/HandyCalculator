@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/fuel_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:background="@color/fuel_primary_light"/>
+
+            <TextView
+                android:id="@+id/txt_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trip_dist"
+                android:paddingLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/text_color_white"/>
+
+            <EditText
+                android:id="@+id/trip_dist"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Km/Mi"
+                android:layout_marginLeft="95dp"
+                android:textSize="@dimen/large_size"
+                android:layout_below="@+id/txt_distance"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_white"
+                android:backgroundTint="@color/text_color_white"
+                android:textColorHint="@color/text_color_white"
+                android:inputType="numberDecimal"/>
+
+
+            <TextView
+                android:id="@+id/txt_distance1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Fuel_effi"
+                android:paddingLeft="100dp"
+                android:layout_marginTop="36dp"
+                android:textColor="@color/text_color_white"
+                android:layout_below="@+id/trip_dist_spinner"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/fuel_effi"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Ga/Li"
+                android:layout_marginLeft="95dp"
+                android:textSize="@dimen/large_size"
+                android:layout_below="@+id/txt_distance1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_white"
+                android:backgroundTint="@color/text_color_white"
+                android:textColorHint="@color/text_color_white"
+                android:inputType="numberDecimal"/>
+
+
+            <TextView
+                android:id="@+id/txt_distance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Gas_price"
+                android:paddingLeft="100dp"
+                android:layout_marginTop="260dp"
+                android:textColor="@color/text_color_white"/>
+
+            <EditText
+                android:id="@+id/gas_price"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Ga/Li"
+                android:layout_marginLeft="95dp"
+                android:textSize="@dimen/large_size"
+                android:layout_below="@+id/txt_distance2"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_white"
+                android:backgroundTint="@color/text_color_white"
+                android:textColorHint="@color/text_color_white"
+                android:inputType="numberDecimal"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/trip_dist_spinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:layout_alignBaseline="@+id/trip_dist"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="155dp"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/fuel_effi_spinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:layout_alignBaseline="@+id/fuel_effi"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="155dp"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/gas_price_spinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:layout_alignBaseline="@+id/gas_price"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="155dp"/>
+            <com.skyfishjy.library.RippleBackground
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/content"
+                app:rb_color="@color/fuel_primary_dark"
+                app:rb_radius="12dp"
+                app:rb_rippleAmount="4"
+                app:rb_duration="3000"
+                app:rb_scale="6"
+                android:layout_marginTop="310dp"
+                android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/fuel_img_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/tip"
+                android:background="@drawable/round_btn_fuel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"/>
+            </com.skyfishjy.library.RippleBackground>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imperical"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="240dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_dist_imperical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.0"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="480dp"
+                android:layout_marginRight="265dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_fuel_effi_imperical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.0"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="510dp"
+                android:layout_marginRight="265dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_gas_price_imperical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.0"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="540dp"
+                android:layout_marginRight="265dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_dist_metric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.0"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="480dp"
+                android:layout_marginRight="170dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_fuel_effi_metric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.0"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="510dp"
+                android:layout_marginRight="170dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_gas_price_metric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.0"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="540dp"
+                android:layout_marginRight="170dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_metric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metric"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="155dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="480dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fuel Efficiency"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="510dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+            <TextView
+                android:id="@+id/txt_gas_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gas Price"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="540dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="575dp"
+                android:background="@color/fuel_primary_dark"/>
+
+            <TextView
+                android:id="@+id/txt_journey_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Jounrey_cost_string"
+                android:layout_below="@+id/txt_gas_price"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_large"/>
+
+            <TextView
+                android:id="@+id/txt_journey_cost_imperical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_journey_cost"
+                android:text="$0.0"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/final_calulated_value"/>
+
+            <Button
+                android:id="@+id/fuel_moreInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Fuel_Ready_to_quit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="680dp"
+                android:textSize="@dimen/large_size"
+                android:background="@color/fuel_primary_dark"
+                android:textColor="@color/text_color_white"
+                android:padding="12dp"/>
+
+            <com.skyfishjy.library.RippleBackground
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.skyfishjy.library.RippleBackground>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fuel_adview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize = "FULL_BANNER"
+        ads:adUnitId = "@string/fuel_banner"/>
+
+
+
+</RelativeLayout>

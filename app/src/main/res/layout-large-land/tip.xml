@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:background="@color/tip_primary_light">
+
+        <TextView
+            android:id="@+id/txt_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:text="@string/Bill_text"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/text_color_white"/>
+
+        <EditText
+            android:id="@+id/bill_amount"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Tip_Cost_value"
+            android:layout_below="@+id/txt_bill"
+            android:layout_marginLeft="95dp"
+            android:textSize="@dimen/large_size"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_color_white"
+            android:textColorHint="@color/text_color_white"
+            android:backgroundTint="@color/text_color_white"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/txt_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tip_percentage"
+            android:layout_below="@+id/bill_amount"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_color_white"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/tip_percent"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:np_orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            app:np_dividerColor="@color/text_color_white"
+            app:np_max="59"
+            app:np_min="1"
+            app:np_selectedTextColor="@color/text_color_white"
+            app:np_selectedTextSize="30sp"
+            app:np_textColor="@color/text_color_white"
+            app:np_textSize="25sp"
+            app:np_typeface="@string/roboto_light"
+            app:np_value="3"
+            app:np_wheelItemCount="5"
+            app:np_wrapSelectorWheel="false"
+            app:np_dividerDistance="58dp">
+
+        </com.shawnlin.numberpicker.NumberPicker>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/No_of_people"
+            android:layout_marginLeft="95dp"
+            android:layout_below="@+id/tip_percent"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/text_color_white"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/no_of_people"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:np_orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="320dp"
+            app:np_dividerColor="@color/text_color_white"
+            app:np_max="59"
+            app:np_min="1"
+            app:np_selectedTextColor="@color/text_color_white"
+            app:np_selectedTextSize="30sp"
+            app:np_textColor="@color/text_color_white"
+            app:np_textSize="25sp"
+            app:np_typeface="@string/roboto_light"
+            app:np_value="3"
+            app:np_wheelItemCount="5"
+            app:np_wrapSelectorWheel="false"
+            app:np_dividerDistance="58dp">
+        </com.shawnlin.numberpicker.NumberPicker>
+
+    </RelativeLayout>
+
+    <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content"
+        android:layout_width="165dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="518dp"
+        app:rb_color="@color/tip_primary_dark"
+        app:rb_duration="3000"
+        app:rb_radius="12dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6"
+        android:layout_centerVertical="true">
+    <ImageButton
+        android:id="@+id/tip_img_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="47dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/tip"
+        android:background="@drawable/round_btn_tip"/>
+    </com.skyfishjy.library.RippleBackground>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="650dp"
+        android:layout_marginTop="125dp"
+        android:background="@color/tip_primary_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Everyone_pays"
+        android:textColor="#000000"
+        android:textSize="@dimen/large_size"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="650dp"/>
+
+    <TextView
+        android:id="@+id/total_per_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tip_Cost_value"
+        android:layout_marginTop="170dp"
+        android:paddingLeft="650dp"
+        android:textColor="#000000"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Bill_per_person"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="650dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/large_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tip_per_person"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="650dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/large_size"/>
+
+
+    <TextView
+        android:id="@+id/bill_per_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tip_Cost_value"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="900dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/large_size"/>
+
+    <TextView
+        android:id="@+id/tip_per_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tip_Cost_value"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="900dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/large_size"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="720dp"
+        android:text="More Information"
+        android:background="@color/tip_primary_dark"
+        android:padding="12dp"
+        android:textColor="@color/text_color_white"
+        android:id="@+id/tip_moreInfo"
+        android:textSize="@dimen/large_size"/>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tip_adview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize = "LEADERBOARD"
+        ads:adUnitId = "@string/tip_banner"/>
+
+
+</RelativeLayout>

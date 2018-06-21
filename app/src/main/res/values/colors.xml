@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ab47bc</color>
+
+    //smoke color
+    <color name="smoke_primary_dark">#0288d1</color>
+    <color name="smoke_primary_light">#03a9f4</color>
+
+    //fuel color
+    <color name="fuel_primary_dark">#00796b</color>
+    <color name="fuel_primary_light">#009688</color>
+
+    //tip color
+    <color name="tip_primary_dark">#f57c00</color>
+    <color name="tip_primary_light">#ff9800</color>
+
+    //loan color
+    <color name="loan_primary_dark">#5d4037</color>
+    <color name="loan_primary_light">#795548</color>
+
+    //discount color
+    <color name="discount_primary_dark">#455a64</color>
+    <color name="discount_primary_light">#607d8b</color>
+
+    //text color
+    <color name="text_color_white">#FFFFFF</color>
+    <color name="text_color_black">#000000</color>
+</resources>

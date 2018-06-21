@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhords.handycalculator.handycalculator.SplashScreen"
+    android:background="@drawable/gradient1">
+
+
+
+    <ImageView
+        android:id="@+id/splash_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logofinal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/splash_img_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:layout_below="@+id/splash_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_white"
+        android:id="@+id/txt_version"
+        android:textSize="@dimen/splash_textsize"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_version"
+        android:textColor="@color/text_color_white"
+        android:text="Developed By"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_develop"
+        android:textSize="@dimen/splash_textbold"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_develop"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/background"/>
+
+
+
+
+
+</RelativeLayout>

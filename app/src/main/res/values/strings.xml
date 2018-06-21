@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Handy Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    //Smoke Strings
+    <string name="pay_for_ciggerates">How much do you pay ($) for a pack of cigarettes ?</string>
+    <string name="cigarettes_in_pack">How many cigarettes are in a pack ?</string>
+    <string name="Years_of_smoking">How many years have you been smoking ?</string>
+    <string name="cigarettes_in_day">How many cigarettes do you smoke in a day ?</string>
+    <string name="Daily_cost">Daily Cost</string>
+    <string name="Weekly_cost">Weekly Cost</string>
+    <string name="Monthly_cost">Monthly Cost</string>
+    <string name="Yearly_cost">Yearly Cost</string>
+    <string name="Cost_value">$0.0</string>
+    <string name="Ready_to_quit">READY TO QUIT</string>
+    <string name="until_now_cost">Until now you have spent</string>
+    <string name="stop_today">If you stop today you will save upto</string>
+    <string name="smoke_quit_text">10 TIPS TO QUIT SMOKING</string>
+    <string name="smoke_quit_description">Everybody’s experience with quitting smoking is different, so some these tips may or may not work for you. Don’t be afraid to experiment and find your own tricks for making quitting easier.
+\n\n<b>1. Take Deep Breaths</b>\n\n
+Whenever you feel a craving, take a deep breath in and slowly let it out. Stress is one of the strongest triggers for nicotine cravings, and this simple exercise will help you relax and calm down. The extra oxygen can help with your headaches and the feelings of dizziness and lightheadedness. If you’ve been smoking for a long time, it’s possible that you still have residual nicotine in your lungs. Breathing deeply can help take the edge off a craving by releasing some of that nicotine into your bloodstream.
+\n\n<b>2. Drink Plenty of Water</b>\n\n
+Water will speed up the nicotine detox. Water can also help ease your cough by making it easier for your lungs to clear out mucus, and it’s a good way to combat your increased appetite without changing your eating habits too much.
+\n\n<b>3. Meditate</b>\n\n
+Meditation might sound exotic, but it’s a fantastic way to handle some of the psychological aspects of nicotine withdrawal. Meditation is a form of deep breathing and relaxation. Participants often envision certain thoughts or pictures, repeat specific mantras, or simply focus on deep breathing.  Some simple meditation techniques can help you become more aware of your thoughts, actions and feelings, thereby helping you to better understand what’s triggering your cravings. Once you know your triggers, you can learn to avoid them.
+\n\n<b>4. Reduce Your Caffeine Intake</b>\n\n
+Nicotine suppresses the effects of caffeine, so after you quit, coffee will have a stronger effect on you. Try cutting back your caffeine intake. Coffee is a stimulant; it increases your heart rate and makes dealing with stress more difficult. It might also be responsible for at least some of your insomnia, so cutting back on it can help you sleep better. You’ll have more energy in the long run.
+\n\n<b>5. Get a Stress Ball</b>\n\n
+When trying to quit, it’s important to find new ways to relax and calm yourself down without nicotine – as well as keep your hands busy. Buying a stress relief ball, silly putty or another simple toy can go a long way towards developing new healthy habits for dealing with stress.
+\n\n<b>6. Find Your Go-To Healthy Snack</b>\n\n
+When you quit smoking, your appetite increases. Find a healthy snack you enjoy, like baby carrots or celery sticks, and carry it around with you at all times. When a craving strikes, put the carrot or celery in your mouth and slowly nibble on it. It will help occupy your hands and mouth, and the familiar movement will make it easier to relax and gather yourself.
+\n\n<b>7. Take Up a New Hobby</b>\n\n
+Consider finding yourself a new and interesting hobby such as painting, pottery or creative writing to take your mind off smoking. Use your newly-found interest to occupy your mind and body to help you deal with cravings. Cooking is a good example of a hobby that utilizes your newly-improved senses of smell and taste. Discover how much better everything tastes now that you’re not smoking.
+\n\n<b>8. Start Exercising Regularly</b>\n\n
+Try taking up healthy exercise like running or cycling. Vigorous exercise can provide a dopamine release that can replace the one you used to get from cigarettes. Staying active will also speed up your body’s self-repair process. Your health will improve faster and you will be able to see your progress over time. Focusing on an intensive exercise program will leave less time for you to think about cigarettes. It will also make you less likely to go back to smoking, since you won’t want to lose what you have already accomplished.
+\n\n<b>9. Throw Away Your Smoking Paraphernalia</b>\n\n
+Keeping all your old ashtrays and lighters around can mean that you’re not truly committed to the idea of quitting. It may be a hard thing to do, but eliminating those items will make you think of cigarettes less, and might even reduce your cravings.
+\n\n<b>10. Clean Your Home</b>\n\n
+As soon as you’ve quit smoking, take the time to freshen up your home. Wash your clothes, steam the furniture and clean the carpet. The smell of tobacco smoke, even when stale, can be a trigger for your cravings, so ensuring that you won’t be smelling it all the time increases your chances of success. A more pleasant environment will also make it easier for you to deal with withdrawal.
+
+
+</string>
+
+    //Tip Strings
+    <string name="Bill_text">Bill Amount</string>
+    <string name="Tip_percentage">Tip %</string>
+    <string name="No_of_people">No of People</string>
+    <string name="Everyone_pays">Everyone Pays</string>
+    <string name="Tip_Cost_value">$0.0</string>
+    <string name="Bill_per_person">Bill per person</string>
+    <string name="Tip_per_person">Tip per person</string>
+    <string name="Tip_moreInfo_string">Tip Suggestions</string>
+    <string name="service">Services</string>
+    <string name="typically_tip">Typical Tip</string>
+    <string name="typical_tip"></string>
+    <string name="tip_moreInfo_description"><b>Should you tip?</b>
+\n\nYes, if the service was acceptable. Many jobs in the service industry pay very little. Without tips, these workers would have a hard time raising a family.
+\n\n <b>Who should you tip?</b>
+\n\nJust about anyone in the service industry. Including, but not limited to, non-fast food restaurant workers, barbers, maids, taxi drivers, bartenders, and webmasters of conversion sites. ;)
+    \n\n<b>Typical Amounts of Tips</b></string>
+
+    //Loan Strings
+    <string name="Loan_amount">Loan Amount</string>
+    <string name="Loan_term">Loan Term</string>
+    <string name="Intrest_rate">Intrest Rate</string>
+    <string name="Year">Year</string>
+    <string name="Month">Month</string>
+    <string name="Total_payback">Total Payback</string>
+    <string name="Loan_Cost_value">$0.0</string>
+    <string name="Total_Intrest">Total Intrest</string>
+    <string name="Monthly_payment">Monthly Payment</string>
+    <string name="Loan_Ready_to_quit">READY TO QUIT</string>
+    <string name="principle">Principle</string>
+    <string name="loan_MoreInfo_text">Loan Basics for Consumers</string>
+    <string name="loan_moreInfo_description">Consumers generally seek loans out of financial need, or because they want to acquire something: A car, a vacation, an extension to the home. Loans of this type are quite different from mortgages which finance house purchases.
+\n\nWhat characterizes most consumer lending is that it is intended to be relatively short-term. It rarely extends for more than ten years. It may take many different forms: Credit card purchases are a form of consumer loan, even if the consumer pays the purchase back at the end of the month. Short-term loans to help cover bill payments, or even the so-called \'paycheck\' loans made just to cover a consumer\'s salary payment are all forms of consumer lending.
+\n\nThere are two basic kinds of consumer loans: Secured and Unsecured.
+\n\nA secured loan means that the consumer has put up some form of property in exchange for the money. You might go to a bank, and offer a valuable coin collection up as collateral for a secured loan that permits you to buy a small boat that you wanted. You could, of course, sell your coin collection to get the money, but then you wouldn\'t have it anymore. By putting it up as collateral, you get to keep it so long as you pay the installments on the loan. Of course, you pay interest on the loan as well.
+\n\nWhen you take out an unsecured loan, you simply sign an agreement to pay the loan back. There is no collateral, no property that belongs to you to guarantee repayment. You can obtain a personal loan that unsecured, but there are others that we obtain relatively easily like credit cards and overdrafts. It is quite difficult to obtain a personal loan on an unsecured basis. One must have an excellent credit rating to qualify, and, often, banks will only consider longstanding clients for such loans.
+\n\nFor whatever kind of loan you borrow, you will have to pay interest. Interest is the profit that the bank or lender makes on loan – what it earns for doing business with you.
+\n\nWhen you take out a loan, it\'s important to calculate how much interest you will have to pay on it, based on the rate of interest that the lender is charging you. Add up your interest payments to get the cost of the loan (along with any charges that the bank may impose).
+\n\nIf you seek a loan for your business, much will depend on the credit rating your business has and the length of time it\'s been up and running. An established business, one that works regularly with a bank, may have no trouble at all getting a loan. A startup, or a small business can, on the other hand, find that getting access to credit is a real struggle. If getting a loan proves difficult, continued shopping for banks or alternative providers is the best route for a business.</string>
+
+    //Fuel Strings
+    <string name="trip_dist">Trip Distance</string>
+    <string name="Fuel_effi">Fuel Efficiency</string>
+    <string name="Gas_price">Gas Price</string>
+    <string name="Jounrey_cost_string">This Journey will cost you</string>
+    <string name="Fuel_Cost_value">$0.0</string>
+    <string name="Fuel_Ready_to_quit">More Information</string>
+    <string name="fuel_moreInfo_string">How to Improve Gas Mileage</string>
+    <string name="fuel_moreInfo_description">Carpooling, public transport, or walking/bicycling are the best options for someone looking for the best possible gas mileage, or fuel efficiency. Because they don\'t involve the use of vehicles, or the efficient sharing of them! Please remember to put these into consideration, and if they aren\'t viable, here are some pointers to getting the most fuel efficiency
+\n\n 1.	<b>Drive a fuel-efficient vehicle</b>–Try not to get a 4-wheel drive vehicle, as they tend to be less fuel efficient than FWD or RWD. By powering all four wheels, the engine works harder to move a car the same speed at higher speeds.
+\n\n 2.	<b>Tires</b>–Under-inflated tires can lower gas mileage by 0.3% per PSI drop due to wasteful transfer of energy dissipating into the mushiness of the tires when they are underinflated. Rigidity in tires allow for greater frictional interaction between rubber and the road, imparting forward momentum.
+\n\n 3.	<b>When allowed by speed limits, 55 MPH is best</b>–According to studies by the Department of Energy, the optimal fuel efficient speed is 55 MPH, but may vary depending on vehicles. Obviously, a Lamborghini Aventador will be different than a Toyota Prius. Use cruise control when possible, such as on long, straight, and rural highways (just don\'t fall asleep at the wheel!).
+\n\n 4.	<b>Don\'t be aggressive</b>–Steadiness and consistency wins the race when it comes to fuel efficiency. Aggressive acceleration churns the engine harder, siphoning more oil. Try not to have as heavy a foot as steady acceleration is not only much, much safer but is more efficient and is kinder to the depreciation of the vehicle. Also, aggressive braking can have a toll on fuel efficiency because drastic drops in speed will only promote drastic increases in speed, on top of faster wear and tear on brakes.
+\n\n 5.	<b>Keep vehicles in good shape</b>– It is possible to improve gas mileage by 1-2% simply by using the recommended motor oil. If the driver\'s manual states 10W-30 as the recommended, do not use 5W-30! Keep the engine properly tuned, ensure the oxygen sensor is in good shape, and solve any failed emissions test right away. Also, check air filters every few months to see if they are clogged; a lot of times, debris from outside gets sucked into them, depriving proper airflow into the engine.
+\n\n 6.	<b>Remove unnecessary weight</b>– This is based on an important physics principle – the heavier the object, the more energy (fuel, in our case) is required to move it. When aiming for best fuel efficiency, driving a smaller, lighter car can be a good start. But anyone can benefit from shedding weight off their current car; try to remove unnecessary items, especially the heavy ones.
+\n\n 7.	<b>Roll up the windows!</b>–Open windows add extra resistance to moving vehicles. Because highway driving involves such high speeds, a massive burden in the form of drag pushes against the forward momentum of a traveling car, causing the engine to work harder in order to maintain the same speed. Highway driving is usually more fuel efficient when the windows are rolled up to alleviate drag, even with the AC on instead.
+\n\n 8.	<b>Air-conditioning</b>–For most drivers, fuel economy suffers during especially hot climates because of partitioning of oil required to power the air-conditioning of the cabin of the vehicles. A vehicle\'s fuel economy can drop by 25% in hot climates due to AC usage! It can be helpful not to have the AC unnecessarily high, especially when the car is idle; AC systems are more efficient when the car is moving.
+\n\n 9.	<b>Avoid unnecessary idling</b>–An idle vehicle gets 0 MPG. According to the US Department of Energy, it costs approximately 2-4 cents a minute to keep an idle vehicle running with AC, 1-3 cents a minute without.
+\n\n For <a href="http://www.blaineautorepair.com/car-care-tips"> more information</a></string>
+
+
+    //discount strings
+
+    <string name="discount_moreInfo_string">List of Deals</string>
+    <string name="discount_moreInfo_description">If your number-one goal is to score deals, start by checking out sites that do the bargain hunting for you. Deal sites scour the Web for discounted items -- saving you both time and money.
+\n\nOur favorite is <a href="http://www.dealnews.com/">DealNews.com</a> , which has a team of deal hunters who keep their eyes on a million products at more than 2,000 reputable online retailers and update the site with new deals at least 200 times a day. Plus, it works with merchants to offer exclusive deals you won\'t find elsewhere. There\'s a picture of each product and ample information, including the original price, sale price and whether it\'s the lowest price DealNews has found for the product. You can sign up for e-mail alerts for products or stores you\'re interested in and get shopping advice from the site\'s buying guides.
+\n\n <a href="http://www.bensbargains.net/">Ben’s Bargains</a> tracks about 2,000 retailers and publishes about 150 to 200 deals daily. It includes price history data on products that have been posted before, and users can register to get deal alerts based on product, brand, store and price range. What we really like about this site is its “Cheaper Than Amazon” feature that highlights deals that are much better than what the retail giant is offering – as well as its small-business deals and freebies pages.
+\n\nThe editors at <a href="http://www.bradsdeals.com/">Brad’s Deals</a> search the Web daily for the best sale prices, coupons, rebates and store rewards at more than 3,800 retailers. The site is easy to navigate and lets you sort deals by newest or most popular. It recently was redesigned to allow users to set up profiles with their favorite stores, coupons and deals. You also can sign up to receive daily, twice-a-week or weekly emails with deal alerts.
+\n\n <a href="http://www.offers.com/">Offers.com</a> features deals from more than 6,000 companies and stores, updated daily and organized into 300 categories including clothing, electronics, toys and travel. You can search by store and brand, by type of offer (coupon code, in-store offer, etc.) and by holiday and event (back-to-school deals, Black Friday deals, etc.). Offers.com also points you to local deals in more than 75 cities.
+\n\nBoth <a href="http://slickdeals.net/">Slickdeals.net</a> and <a href="http://www.gottadeal.com/">GottaDeal.com</a> feature deals on their home pages, but their forums are where you\'ll find hundreds of deals posted daily. If you have time to peruse the forums, you\'ll likely find bargains there that you might not find elsewhere.</string>
+
+
+    <string name="about_string">Xhords is a professionally recognized software development company which represents the highest level of competence and expertise in developing custom software’s as well as website and mobile applications. \n \nWe are expert in development, customization, and integration of complex enterprise-level solutions, advanced web and mobile applications offering a well-balanced blend of technology skills, domain knowledge, hands-on experience, effective methodology and passion for IT.</string>
+
+    <string name="suggest_feature_string">If you have any idea or suggestion then fill out the form and send us Email.</string>
+
+    <string name="credit_title">Credits</string>
+    <string name="credit_description"><a href="https://github.com/oli107/material-range-bar">Material Range Bar</a>
+Copyright 2015, AppyVet, Inc.
+\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+\n\n<a href="https://github.com/chrisjenx/Calligraphy">Calligraphy</a>
+\nCopyright 2013 Christopher Jenkins
+\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+\n\n<a href="https://github.com/ShawnLin013/NumberPicker">NumberPicker</a>
+\nCopyright (C) 2016 ShawnLin013(Shawn Lin)
+\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+\n\n<a href="https://github.com/jaredrummler/MaterialSpinner">MaterialSpinner</a>
+\nCopyright (C) 2016 Jared Rummler
+\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+   \n\n <a href="https://github.com/javiersantos/MaterialStyledDialogs">MaterialStyledDialogs</a>
+
+\nCopyright 2016 Javier Santos
+
+\nLicensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+\nYou may obtain a copy of the License at
+
+\n   http://www.apache.org/licenses/LICENSE-2.0
+
+\nUnless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+\nMaterialStyledDialogs includes code from material-dialogs, which is
+licensed under the MIT license. You may obtain a copy at
+
+\n   https://github.com/afollestad/material-dialogs/blob/master/LICENSE.txt
+    </string>
+
+
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="adUnitId">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="app_id">ca-app-pub-7051442132957918~2912804077</string>
+
+    <string name="smoke_banner">ca-app-pub-7051442132957918/2581631581</string>
+    <string name="smoke_interstitial">ca-app-pub-7051442132957918/6455366750</string>
+
+    <string name="tip_banner">ca-app-pub-7051442132957918/7248555740</string>
+    <string name="tip_interstitial">ca-app-pub-7051442132957918/9837924592</string>
+
+    <string name="fuel_banner">ca-app-pub-7051442132957918/4423259468</string>
+    <string name="fuel_interstitial">ca-app-pub-7051442132957918/7331180758</string>
+
+    <string name="loan_banner">ca-app-pub-7051442132957918/8613608302</string>
+    <string name="loan_interstitial">ca-app-pub-7051442132957918/9801609037</string>
+
+    <string name="discount_banner">ca-app-pub-7051442132957918/7979361097</string>
+    <string name="discount_interstitial">ca-app-pub-7051442132957918/3272516242</string>
+
+</resources>

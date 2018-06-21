@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xhords.handycalculator.handycalculator.SuggestFeature">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/wallpaper"
+            android:scaleType="fitXY"
+            android:id="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background1"
+            android:layout_marginTop="-200dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="@dimen/cardView_width"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="180dp"
+                android:background="@color/text_color_white"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="3dp">
+
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/suggest_feature_string"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/cardView_textSize"/>
+
+                <EditText
+                    android:id="@+id/edittext_name"
+                    android:layout_width="@dimen/suggest_edittext_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="60dp"
+                    android:backgroundTint="@color/text_color_black"
+                    android:hint="Your name"
+                    android:focusedByDefault="false"/>
+
+
+
+                <Button
+                    android:id="@+id/btn_suggest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="260dp"
+                    android:layout_gravity="center|top"
+                    android:text="Send Email"
+                    android:padding="10dp"
+                    android:layout_marginBottom="50dp"/>
+
+
+
+                <EditText
+                    android:id="@+id/edittext_suggest"
+                    android:layout_width="@dimen/suggest_edittext_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="110dp"
+                    android:backgroundTint="@color/text_color_black"
+                    android:hint="Idea/Suggestion"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:minLines="5"
+                    android:padding="10dp"
+                    android:focusedByDefault="false"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

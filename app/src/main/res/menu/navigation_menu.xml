@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/nav">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_ourapps"
+        android:title="Our Apps"
+        android:icon="@drawable/apps"/>
+
+    <item
+        android:id="@+id/nav_feature"
+        android:title="Suggest a feature"
+        android:icon="@drawable/idea"/>
+
+</group>
+
+<item android:title="See Also">
+<menu>
+    <item
+        android:id="@+id/nav_about"
+        android:title="About"
+        android:icon="@drawable/about"/>
+    <item
+        android:id="@+id/nav_rate"
+        android:title="Rate Us"
+        android:icon="@drawable/rate"/>
+    <item
+        android:id="@+id/nav_credits"
+        android:title="Credits"
+        android:icon="@drawable/credit"/>
+    
+    <item
+        android:id="@+id/nav_exit"
+        android:title="Exit"
+        android:icon="@drawable/exit"/>
+
+
+</menu>
+</item>
+
+    </menu>
